@@ -1,5 +1,5 @@
-
-    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+if game.PlaceId == 5138201553 then
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/KaanOnly/Orion1s/refs/heads/main/KaanUiForOrion2')))()
     local Window = OrionLib:MakeWindow({Name = "Mnc Gui Remake", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
     
     local MainTab = Window:MakeTab({
